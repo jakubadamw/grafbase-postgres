@@ -1,5 +1,5 @@
 {
-  "name": "grafbase-neon",
+  "name": "grafbase-postgres",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@grafbase/sdk": "~0.7"
+    "@grafbase/sdk": "~0.9"
   }
 }
