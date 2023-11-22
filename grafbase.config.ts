@@ -1,11 +1,11 @@
-import { g, connector, config } from '@grafbase/sdk'
+import { g, connector, config } from "@grafbase/sdk";
 
-const pg = connector.Postgres('pg', {
-  url: g.env('DATABASE_URL')
-})
+const pg = connector.Postgres("pg", {
+  url: g.env("DATABASE_URL"),
+});
 
-g.datasource(pg)
+g.datasource(pg);
 
 export default config({
-  schema: g
-})
+  schema: g,
+});
