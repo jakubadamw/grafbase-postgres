@@ -9,3 +9,4 @@ g.datasource(pg);
 export default config({
   schema: g,
 });
+
